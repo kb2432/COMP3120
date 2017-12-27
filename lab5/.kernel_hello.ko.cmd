@@ -1,0 +1,1 @@
+cmd_/home/je/COMP3120/lab5/kernel_hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/je/COMP3120/lab5/kernel_hello.ko /home/je/COMP3120/lab5/kernel_hello.o /home/je/COMP3120/lab5/kernel_hello.mod.o ;  true
